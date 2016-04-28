@@ -21,7 +21,7 @@ def make_argument_parser():
         description='Peer-to-peer message transmission from client to server')
     parser.add_argument(
         '--mode',
-        help='mode of the program (client or server, default "%s")')
+        help='mode of the program ("client" or "server")')
     parser.add_argument(
         '--message',
         default=DEFAULT_MESSAGE,
